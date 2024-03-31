@@ -1,0 +1,32 @@
+body {
+    box-sizing: border-box;
+    font-family: Georgia;
+    text-align: center;
+    background-color: rgb(27, 165, 129);
+}
+
+img {
+    border: 3px solid #000;
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+
+header {
+    color: #fff;
+}
+
+section {
+    margin: 30px auto;
+    padding: 20px 15px;
+    text-align: left;
+    width: 600px;
+    background-color: rgba(120, 187, 139, 0.67);
+    border-radius: 10px;
+}
+
+footer {
+    color: #fff;
+    
+}
