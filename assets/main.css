@@ -7,7 +7,7 @@ body {
 
 img {
     border: 3px solid #000;
-    margin-top: 30px;
+    margin: 30px;
     height: 300px;
     width: 300px;
     border-radius: 100%;
@@ -29,4 +29,8 @@ section {
 footer {
     color: #fff;
     
+}
+
+#res {
+    margin: auto;
 }
