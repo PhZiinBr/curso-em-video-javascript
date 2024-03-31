@@ -3,19 +3,20 @@ function carregar() {
     var img = window.document.getElementById('imagem')
     var data = new Date()
     var hora = data.getHours()
+    var cpts = window.document.getElementById('cumprimentos')
 
     msg.innerHTML = `Agora são ${hora} horas.`
 
     if (hora >= 0 && hora < 12) {
-        //BOM DIA!!
+        cpts.innerHTML = 'Bom dia!'
         img.src = 'assets/img/morning.jpg'
         document.body.style.background = '#deca7a'
     } else if (hora >= 12 && hora < 18) {
-        // BOA TARDE!!
+        cpts.innerHTML = 'Boa tarde!'
         img.src = 'assets/img/afternoon.jpg'
         document.body.style.background = '#468cc7'
     } else {
-        // BOA NOITE!!
+        cpts.innerHTML = 'Boa noite!'
         img.src = 'assets/img/night.jpg'
         document.body.style.background = '#141f15'
     }

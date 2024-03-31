@@ -33,4 +33,10 @@ footer {
     height: 300px;
     width: 300px;
     border-radius: 100%;
+    border: 3px solid #000;
+}
+
+#cumprimentos {
+    font-weight: Bold;
+    color: rgb(41, 62, 153);
 }
